@@ -1,0 +1,34 @@
+.app-header{
+    background-color: $clr3;
+    color: $clr2;
+    height: 10vh;
+    padding: 25px 2rem;
+    margin-bottom: 2rem;
+    
+    .main-nav{
+        padding: 5px;
+
+    }
+
+
+    .app-header .main-nav a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .app-header .main-nav a.active {
+        color: #f2bc47;
+    }
+    
+    .app-header .main-nav a.my-active {
+        color: #ce0000;
+    }
+    
+    .app-header .main-nav > *:not(:last-child) {
+        margin-inline-end: 1rem;
+    }
+
+    .logo{
+        cursor: pointer;
+    }
+}

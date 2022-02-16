@@ -1,0 +1,35 @@
+.bitwallet-app {
+        background-image: url('https://cdn.pixabay.com/photo/2019/01/25/16/45/blockchain-3954908_1280.jpg');
+        // background-color: #c28d1d;
+        background-repeat: no-repeat;
+        height: 100%;
+        background-size: cover;
+        margin-top: -32px;
+
+    .user-details {
+        color: $clr2;
+        padding-top: 10px;
+
+    }
+    .add-contact {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 80%;
+        background-color: transparent;
+        margin-left: 10%;
+        // box-shadow: 5px 10px #888888
+        margin-top: 10px;
+        color: $clr2;
+    }
+}
+
+@media screen and (min-width: 500px){
+    .add-contact {
+        width: 50%;
+        background-color: $clr3;
+        margin-left: 25%;
+        // box-shadow: 5px 10px #888888
+        margin-top: 64px;
+    }
+}

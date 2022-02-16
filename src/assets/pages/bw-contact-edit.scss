@@ -1,0 +1,22 @@
+.contact-edit{
+    color: $clr2;
+    background-color: $clr1;
+    /* justify-content: space-between; */
+    height: 15rem;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    width: 70%;
+    margin: 0 15%;
+    border-radius: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+
+    form{
+        margin-top: 10px;
+    }
+    form button{
+        margin-top: 20px;
+    }
+}

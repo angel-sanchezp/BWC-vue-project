@@ -1,0 +1,33 @@
+.contact-list {
+    margin-top: 50px;
+    width: 100%;
+
+
+    .contact-list-li {
+        color: $clr2;
+        gap: 10px;
+        background-color: $clr1;
+        margin-bottom: 20px;
+        padding: 10px;
+        border-radius: 5px;
+        user-select: none;
+        transition: 0.3s;
+        width: 80%;   
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+     }
+     
+     .btn-link{
+         padding-right:10px;
+     }
+
+
+}
+
+@media screen and (min-width: 800px){
+    .contact-list-li{
+        width: 50%;
+    }
+}

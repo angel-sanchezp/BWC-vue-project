@@ -1,0 +1,93 @@
+
+.about-app{
+    display: flex;
+    margin-top: 50px;
+    background-color: $clr1;
+    // background-image: url('https://imgnew.outlookindia.com/public/uploads/articles/2022/1/4/bitcoin.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    margin-top: -32px;
+  }
+  
+  
+  .card-about-app {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    background-color: whitesmoke;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .angel-img{
+  width:70%
+  }
+  
+  .title-about-app {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  .btn-about-app {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .a-about-app {
+    text-decoration: none;
+    /* font-size: 22px; */
+    /* color: black; */
+  }
+  
+  .btn-about-app:hover,.a-about-app:hover {
+    opacity: 0.7;
+  }
+  
+
+  
+  .btn-heart{
+   background-color: transparent;
+   text-decoration: none;
+   border: none;
+  }
+  
+  .github-icon{
+    width: 30px;
+  }
+  
+  .linkdin-icon{
+    width: 30px;
+    margin-right: 10px;
+  }
+
+
+  .statistics-page{
+    height: 90vh;
+    // background-image: url('https://imgnew.outlookindia.com/public/uploads/articles/2022/1/4/bitcoin.jpg');
+    background-color:$clr1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -32px;
+    color: $clr2;
+    
+    .stats-header{
+      align-items: center;
+
+      .div-header{
+        padding-right: 10px;
+        padding-left: 20px;
+      }
+    }
+
+
+
+  }

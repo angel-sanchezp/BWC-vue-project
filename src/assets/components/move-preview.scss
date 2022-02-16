@@ -1,0 +1,16 @@
+.move-preview{
+    align-items:center;
+    .p-preview{
+     padding-left: 15px;
+ 
+    }
+ 
+     &:hover {
+         // filter: brightness(1.5);
+         font-size:20px;
+         cursor: pointer;
+     }
+ 
+ 
+    
+ }

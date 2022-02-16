@@ -1,0 +1,37 @@
+.contact-details{
+    color: $clr2;
+    background-color: $clr1;
+    justify-content: space-between;
+    height: 15rem;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    width: 70%;
+    margin: 0 15%;
+    border-radius: 28px;
+
+    .img-container{
+        margin-top:30px;
+        flex-basis: 50%;
+    }
+    
+    .contact-details-container{
+        margin-top:30px;
+        flex-basis: 50%;
+        padding-left: 1.25rem;
+    }
+
+    .links{
+        margin-top: 10px;
+    }
+
+   
+
+    .links >*:not(:last-child){
+        padding-inline-end: 20px;
+
+    }
+   
+ 
+
+
+}

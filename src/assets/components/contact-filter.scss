@@ -1,0 +1,10 @@
+.contact-filter{
+    margin-top: 35px;
+    margin-bottom: 28px;
+
+    ::placeholder {
+        color: $clr2;
+        font-size: 15px;
+        opacity: 1; /* Firefox */
+      }
+}
