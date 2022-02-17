@@ -14,6 +14,7 @@ const KEY = 'MarketPrice'
 
 
 async function getRate(coins) {
+    console.log('coins bitcoin service',coins)
     let data = JSON.parse(localStorage.getItem(STORAGE_KEY)) || []
     if (!data.length) {
         const { data } = await axios.get(`https://blockchain.info/tobtc?currency=USD&value=${coins}`)

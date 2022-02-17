@@ -32,7 +32,9 @@ export default {
     };
   },
   async created() {
+    console.log('user from store',this.user)
     this.bitRate = await bitcoinService.getRate(this.user.coins);
+    console.log(this.bitRate)
   },
   methods: {
     async removeContact(id) {

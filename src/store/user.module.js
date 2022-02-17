@@ -17,6 +17,7 @@ export default {
     actions: {
         async loadUser(context) {
             const user = await userService.getUser();
+            console.log('user in module',user)
             context.commit({ type: 'setUser', user });
         },
         async saveTransfer({ commit }, { transfer}){
