@@ -4,7 +4,7 @@
 
 <h3 align="center">BWC🪙-builded in Vue Framwork, its a little digital wallet for holding my bitcoins and sending (feek paying) them to my contacts. also I worked in NodeJS,ExpressJS,Mongodb.</h3>
 
-you can see in Heroku: <a href="https://github.com/angel-sanchezp/BWC-vue-project.git" target="_blank">BWC🪙</a>
+you can see in Heroku: <a href="https://misterbcw.herokuapp.com/" target="_blank">BWC🪙</a>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
